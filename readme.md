@@ -1,7 +1,7 @@
 Kurz Python Kosice 2014
 ====
 
-Studíjne materialy v IPython notebook
+Studijne materialy v IPython notebook
 
 instrukcie:
 - prihlas sa na "https://cloud.sagemath.com/"
@@ -10,6 +10,6 @@ instrukcie:
 - vloz *https://github.com/pykomke/Kurz_Python_KE.git* do textoveho pola
 - zvol *From web*
 
-Vrat sa do *Files* a pozadované subory by mali byt v domacej zlozke.
+Vrat sa do *Files* a pozadovane subory by mali byt v domacej zlozke.
 
 Vela zdaru
