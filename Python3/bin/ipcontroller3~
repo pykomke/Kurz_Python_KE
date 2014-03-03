@@ -1,0 +1,10 @@
+#!/projects/53961b28-9604-4ee3-b4f6-58e2888b6d0b/Python3/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'ipython==1.2.1','console_scripts','ipcontroller3'
+__requires__ = 'ipython==1.2.1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('ipython==1.2.1', 'console_scripts', 'ipcontroller3')()
+    )

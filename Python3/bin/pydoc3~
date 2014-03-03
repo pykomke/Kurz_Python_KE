@@ -1,0 +1,5 @@
+#!/projects/53961b28-9604-4ee3-b4f6-58e2888b6d0b/Python3/bin/python3.3
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

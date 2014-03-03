@@ -1,0 +1,11 @@
+#!/projects/53961b28-9604-4ee3-b4f6-58e2888b6d0b/Python3/bin/python3.3
+if __name__ == '__main__':
+    import sys
+    rc = 1
+    try:
+        import venv
+        venv.main()
+        rc = 0
+    except Exception as e:
+        print('Error: %s' % e, file=sys.stderr)
+    sys.exit(rc)
