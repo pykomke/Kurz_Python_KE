@@ -1,0 +1,34 @@
+0. Python
+1. Základy HTML
+2. Ako funguje Webframework
+3. Inštalácia Python (Ubuntu/Windows) - základy práce s terminálom
+4. Django Blog tutoriál
+
+1.
+http://www.w3schools.com/html/html_examples.asp -> HTML Basic
+
+2. web_a_framework.png
+
+3.
+Inštalácia Python3 (Ubuntu 13.10 + Virtualenv):
+Synaptic -> python3-pip
+sudo pip3 install virtualenv
+cd Zlozka_pre_novy_python
+virtualenv Skola_Pythonu
+source Skola_Pythonu/bin/activate
+pip3 install Django
+python -c 'import django'
+po skonceni prace -> deactivate
+
+pip - inštalácia python balíkov
+Pri práci s terminálom pozor na príkaz "sudo"
+Zdroje virtualenv (virtualenvwrapper):
+http://docs.python-guide.org/en/latest/dev/virtualenvs/
+http://www.virtualenv.org/en/latest/virtualenv.html
+http://virtualenvwrapper.readthedocs.org/en/latest/install.html
+
+4. Django tutoriál:
+Nastavenie -> programovanie
+Windows editor: http://komodoide.com/download/ -> Komodo Edit
+http://www.creativebloq.com/netmag/get-started-django-7132932
+https://docs.djangoproject.com/en/1.6/
